@@ -21,5 +21,20 @@ public class Main {
         qualquer.falar();
         adao.falar("baixo");
 
+        // criar mais objetos
+        Pessoa rainha;
+
+        // instanciar objetos
+        rainha = new Pessoa();
+
+        // definir formato do objeto
+        rainha.nome = "tina";
+        rainha.sobrenome = "tunner";
+
+        // definir comportamento
+        rainha.falar();
+        rainha.falar("alto");
+        System.out.println(rainha.falar("alto","grave"));
+
     }
 }
